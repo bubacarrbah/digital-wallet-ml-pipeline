@@ -24,7 +24,7 @@ from sklearn.metrics import (
 # PAGE CONFIG
 # ------------------------------------
 st.set_page_config(
-    page_title="Digital Wallet Analytics",
+    page_title="Digital Wallet ML System",
     layout="wide"
 )
 
@@ -107,8 +107,8 @@ dt_pred = dt.predict(Xc_test)
 # ------------------------------------
 # HEADER
 # ------------------------------------
-st.title("📊 Digital Wallet Machine Learning Dashboard")
-st.caption("User behavior analysis, prediction & business insights")
+st.title("💳 Digital Wallet Machine Learning Dashboard")
+st.caption("Built by Bubacarr Bah | Data Scientist & Machine Learning Engineer")
 
 # ------------------------------------
 # KPI METRICS
@@ -272,3 +272,9 @@ st.markdown("""
 • Predictive models allow **early identification of valuable users** for retention strategies  
 • This pipeline supports **data-driven marketing, personalization, and churn prevention**
 """)
+
+st.markdown("---")
+st.markdown(
+    "© 2025 **Bubacarr Bah** · Digital Wallet ML System · "
+   
+)

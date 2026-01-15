@@ -1,4 +1,8 @@
-# 💳 Digital Wallet User Analytics & Prediction
+# 📊 Digital Wallet User Analytics & Prediction
+
+**Author:** Bubacarr Bah  
+**Role:** Data Scientist / Machine Learning Engineer  
+
 
 ## Project Overview
 This project analyzes digital wallet user behavior to predict **total spend** and classify **high-value users** using machine learning. The goal is to help businesses **identify valuable users**, optimize marketing campaigns and make data-driven decisions.
@@ -124,4 +128,14 @@ The Streamlit dashboard allows input of:
 - Clustering helps segment users for **personalized strategies**.  
 
 ---
+
+---
+
+## 📜 License & Ownership
+
+© 2025 Bubacarr Bah.  
+This project is provided for educational and portfolio purposes.
+
+You may reference this project, but redistribution or commercial use
+requires explicit permission from the author.
 
