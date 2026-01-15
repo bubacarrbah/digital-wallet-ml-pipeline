@@ -246,8 +246,8 @@ st.divider()
 st.subheader("🧪 New User Prediction")
 
 c1, c2, c3 = st.columns(3)
-tx = c1.number_input("Transaction Count", min_value=1, value=10)
-avg = c2.number_input("Average Transaction Amount", min_value=1.0, value=50.0)
+tx = c1.number_input("Transaction Count", min_value=1, value=3)
+avg = c2.number_input("Average Transaction Amount", min_value=1.0, value=5000.00)
 days = c3.number_input("Active Days", min_value=1, value=5)
 
 new_user = scaler.transform([[tx, avg, days]])
