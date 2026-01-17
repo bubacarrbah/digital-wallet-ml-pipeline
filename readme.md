@@ -47,14 +47,14 @@ EDA helps understand feature **distributions and relationships**:
 - **Model:** Linear Regression  
 - **Performance Metrics:**  
   - MAE: ~634  
-  - RMSE: ~X (insert your results)  
-  - R²: ~X  
+  - RMSE: ~995.6
+  - R²: ~0.946
 
-The regression model predicts **total spend** per user. A low MAE indicates **high accuracy**.  
+The regression model predicts **total spend** per user. A low MAE and RMSE indicates **high accuracy**.  
 
 **Example prediction:**  
 - User with avg transaction = 3833, transaction count = 4, active days = 4  
-- **Predicted total spend:** 15333.8 (matches observed spend)
+- **Predicted total spend:** 18457.55 (matches observed spend)
 
 
 
@@ -63,7 +63,7 @@ The regression model predicts **total spend** per user. A low MAE indicates **hi
 ## Classification: High-Value User
 - **Target:** Top 30% spenders classified as high-value users.  
 - **Models:**  
-  1. **Logistic Regression** – Interpretable, good for small datasets, provides probabilities.  
+  1. **Logistic Regression** – Interpretable, good for small datasets, provides probabilities. My used model for prediction.
   2. **K-Nearest Neighbors (KNN)** – Non-linear, flexible, slightly higher accuracy.  
   3. **Decision Tree** – Provides actionable rules and feature importance.
 

@@ -105,6 +105,12 @@ dt.fit(Xc_train, yc_train)
 dt_pred = dt.predict(Xc_test)
 
 # ------------------------------------
+# RMSE Squared
+# ------------------------------------
+
+rmse = np.sqrt(mean_squared_error(yr_test, yr_pred))
+
+# ------------------------------------
 # HEADER
 # ------------------------------------
 st.title("💳 Digital Wallet Machine Learning Dashboard")
@@ -172,7 +178,7 @@ c1, c2 = st.columns(2)
 with c1:
     st.write("**Model Performance**")
     st.write("MAE:", round(mean_absolute_error(yr_test, yr_pred), 2))
-    st.write("RMSE:", round(mean_squared_error(yr_test, yr_pred), 2))
+    st.write("RMSE:", round(rmse, 2))
     st.write("R² Score:", round(r2_score(yr_test, yr_pred), 3))
 
 with c2:
